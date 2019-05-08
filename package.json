@@ -1,15 +1,7 @@
 {
-  "name": "electron-hello-world-demo",
-  "version": "1.0.0",
-  "description": "",
-  "main": "src/main.js",
   "scripts": {
     "start": "electron ."
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {},
   "devDependencies": {
     "electron": "^1.8.4"
   }
