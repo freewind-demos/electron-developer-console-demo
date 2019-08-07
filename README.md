@@ -1,11 +1,9 @@
-Electron Hello World Demo
-==========================
+Electron Append Menu Item Demo
+==============================
 
-Build desktop application with Html/JavaScript/CSS.
+How to append new menu item in electron.
 
 ```
 npm install
 npm start
 ```
-
-Note in `package.json`, the `main` key should point to the js file which starts the electron window.
