@@ -1,7 +1,5 @@
-Electron Append Menu Item Demo
-==============================
-
-How to append new menu item in electron.
+Electron Add Developer Console Menu Demo
+=======================================
 
 ```
 npm install
