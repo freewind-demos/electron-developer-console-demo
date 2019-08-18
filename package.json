@@ -1,9 +1,9 @@
 {
   "main": "./src/main.js",
   "scripts": {
-    "start": "electron ."
+    "demo": "electron ."
   },
-  "devDependencies": {
+  "dependencies": {
     "electron": "6.0.1"
   }
 }

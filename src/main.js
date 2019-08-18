@@ -8,14 +8,18 @@ function appendDebugMenu(mainWindow) {
       label: 'Debug',
       submenu: [
         {label: 'Developer console', click: () => mainWindow.webContents.openDevTools()},
-      ]
-    }
-  ))
+      ],
+    },
+  ));
   Menu.setApplicationMenu(menu);
 }
 
 app.on('ready', function () {
-  const mainWindow = new BrowserWindow();
+  const mainWindow = new BrowserWindow({
+    webPreferences: {
+      nodeIntegration: true,
+    },
+  });
   mainWindow.loadURL('file://' + __dirname + '/index.html');
 
   appendDebugMenu(mainWindow);
