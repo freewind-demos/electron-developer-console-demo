@@ -8,5 +8,5 @@ Electron Developer Console Demo
 
 ```
 npm install
-npm run demo
+npm start
 ```
